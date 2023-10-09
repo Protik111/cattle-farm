@@ -1,6 +1,123 @@
-.navbar-container {}
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Heebo:wght@300;400;500;700&family=Mulish:wght@300;400;500;600;700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700&family=Tilt+Prism&display=swap");
+
+.navbar-container {
+  /* background-color: #fafafa; */
+  box-shadow: 9px 18px 46px -26px rgba(0, 0, 0, 0.45);
+}
 
 .navbar-brand img {
-    max-width: 100%;
-    height: 75px;
+  max-width: 100%;
+  height: 75px;
+}
+
+.nav-link {
+  color: gray !important;
+}
+
+.nav-link:hover {
+  color: black !important;
+}
+
+.hero-section {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.hero-section .info {
+  text-align: center;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info h1 {
+  text-align: center;
+  color: white;
+  font-family: Mulish;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.info p {
+  color: white;
+  font-family: Mulish;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.italic-text {
+  color: #ffca2c;
+  text-align: center;
+  font-family: Caveat;
+  font-weight: 500;
+  font-size: 42px;
+}
+
+.primary-heading {
+  color: #3a4836;
+  /* text-align: center; */
+  font-family: Mulish;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.offer-section .left img {
+  max-width: 100%;
+  height: 500px;
+  object-fit: cover;
+
+  position: relative;
+  /* width: 500px; */
+  /* height: 400px; */
+  margin: 20px 0;
+  background: red;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: 0.1em;
+}
+
+.offer-section .left img:before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+.box-item {
+  border-left: 6px solid #ffca2c;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 7px;
+}
+
+.box-item h2 {
+  color: #3a4836;
+  font-family: Mulish;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-item p {
+  margin-bottom: 0 !important;
+  margin-left: 5px;
+}
+
+.tick-img {
+  height: 22px;
+  width: 22px;
+  object-fit: cover;
 }
