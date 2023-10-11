@@ -26,7 +26,12 @@
   background-image: url("images/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 80vh;
+  min-height: 100vh;
+
+  @media (max-width :576px) {
+    background-size: cover;
+    /* height: 400px; */
+  }
 }
 
 .hero-section .info {
@@ -36,6 +41,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  /* @media (max-width :576px) {
+    height: 200px;
+  } */
 }
 
 .info h1 {
@@ -44,6 +53,10 @@
   font-family: Mulish;
   font-weight: 600;
   font-size: 48px;
+
+  @media (max-width :576px) {
+    font-size: 28px;
+  }
 }
 
 .info p {
@@ -60,6 +73,10 @@
   font-family: Caveat;
   font-weight: 500;
   font-size: 42px;
+
+  @media (max-width :576px) {
+    font-size: 28px;
+  }
 }
 
 .primary-heading {
@@ -68,6 +85,10 @@
   font-family: Mulish;
   font-weight: 600;
   font-size: 42px;
+
+  @media (max-width :576px) {
+    font-size: 28px;
+  }
 }
 
 .offer-section .left img {
@@ -84,6 +105,10 @@
   color: white;
   text-align: center;
   text-indent: 0.1em;
+
+  /* @media (max-width :576px) {
+    margin: 0 auto;
+  } */
 }
 
 .offer-section .left img:before {
@@ -102,6 +127,18 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 7px;
+  max-width: 75%;
+
+  @media (max-width :576px) {
+    max-width: 100%;
+  }
+}
+
+.healthy-img {
+  @media (max-width :576px) {
+    height: 200px !important;
+    width: 100% !important;
+  }
 }
 
 .box-item h2 {
@@ -109,6 +146,10 @@
   font-family: Mulish;
   font-weight: 500;
   font-size: 28px;
+
+  @media (max-width :576px) {
+    font-size: 22px;
+  }
 }
 
 .list-item {
@@ -129,7 +170,7 @@
 
 .carousel-caption h5,
 p {
-  color: #adc87f;
+  color: #8ba55f;
 }
 
 .service-item {
@@ -245,17 +286,17 @@ p {
   height: 50px;
 }
 
-//poultry farm file
+/* //poultry farm file */
 .hero-section-poultry {
-  background-image: url("./images/cattle/cattle-2.jpg");
-  background-size: contain;
+  background-image: url("./images/poultry/jan-kraus-KNnH7kflEtQ-unsplash.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
 
 .hero-section-poultry .info {
   text-align: center;
-  min-height: 75vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,4 +318,60 @@ p {
 
 .delivery-single h4 {
   color: #f6ce21;
+}
+
+.hero-section-cattle .info {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-section-cattle {
+  background-image: url("./images/cattle/cattle-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.hero-section-feed .info {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-section-feed {
+  background-image: url("./images/cattle/cattle-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.feed-section-img img {
+  max-width: 100%;
+  object-fit: cover;
+  /* width: 400px; */
+  height: 500px;
+  border-radius: 15px;
+}
+
+.feed-gray {
+  background-color: #F7F7F7;
+  border-radius: 15px;
+  height: 500px;
+}
+
+.feed-gray-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100%;
 }
