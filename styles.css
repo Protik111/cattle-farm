@@ -28,7 +28,7 @@
   background-repeat: no-repeat;
   min-height: 100vh;
 
-  @media (max-width :576px) {
+  @media (max-width: 576px) {
     background-size: cover;
     /* height: 400px; */
   }
@@ -54,7 +54,7 @@
   font-weight: 600;
   font-size: 48px;
 
-  @media (max-width :576px) {
+  @media (max-width: 576px) {
     font-size: 28px;
   }
 }
@@ -74,7 +74,7 @@
   font-weight: 500;
   font-size: 42px;
 
-  @media (max-width :576px) {
+  @media (max-width: 576px) {
     font-size: 28px;
   }
 }
@@ -86,7 +86,7 @@
   font-weight: 600;
   font-size: 42px;
 
-  @media (max-width :576px) {
+  @media (max-width: 576px) {
     font-size: 28px;
   }
 }
@@ -129,13 +129,13 @@
   border-radius: 7px;
   max-width: 75%;
 
-  @media (max-width :576px) {
+  @media (max-width: 576px) {
     max-width: 100%;
   }
 }
 
 .healthy-img {
-  @media (max-width :576px) {
+  @media (max-width: 576px) {
     height: 200px !important;
     width: 100% !important;
   }
@@ -147,7 +147,7 @@
   font-weight: 500;
   font-size: 28px;
 
-  @media (max-width :576px) {
+  @media (max-width: 576px) {
     font-size: 22px;
   }
 }
@@ -363,7 +363,7 @@ p {
 }
 
 .feed-gray {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   border-radius: 15px;
   height: 500px;
 }
