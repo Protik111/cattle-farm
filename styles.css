@@ -399,3 +399,9 @@ p {
   text-decoration: none;
   color: white;
 }
+
+.navbar-brand h5 {
+  @media (max-width: 576px) {
+    font-size: 14px;
+  }
+}
